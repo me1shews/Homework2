@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Tesla";
+    src: url(../TESLA.ttf);
+}
+
+@font-face {
+    font-family: "spacex";
+    src: url(../SpaceX.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.main {
+    background-image: url(https://s26162.pcdn.co/wp-content/uploads/2018/06/milky-way.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: "Tesla";
+    font-size: 40px;
+    color: rgb(179, 179, 241);
+    text-shadow: 12px 5px 5px black;
+}
+
+
+span {
+    text-decoration: none;
+    border-bottom: 7px solid white;
+}
+
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-family: "Tesla";
+    background-color: white;
+    color: rgb(179, 179, 241);
+    font-size: 30px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.end h1 {
+    display: block;
+    text-align: center;
+    font-family: "Tesla";
+    color: rgb(157, 157, 238);
+    padding-top: 4rem;
+    font-size: 60px;
+}
